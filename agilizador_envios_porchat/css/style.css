@@ -1,0 +1,150 @@
+#container {
+    width: 100%;
+    border-color: blue;
+    text-align: center;
+    background-color:white;
+    height: 100%;
+    margin-top:0%;
+}
+
+.box {
+    float: left;
+    width: 100px; height: 75%;
+    margin:0%;
+    display: inline-block;
+
+}
+
+#box-1 { 
+	margin-top:0%;
+	background-color: gray; 
+	margin-right: 0px;
+	width:100%;
+	height:11%;
+	color:white;
+	font-family:verdana;
+	text-shadow: 4px 2px 5px black;
+	font-size:50px;
+	padding-top:2%;
+}
+
+#box-2 { 
+	background-color: #ecf0f1; 
+	margin-right: 0px;
+	width:100%;
+	height:80%;
+	
+	
+}
+
+#box-3 { 
+	background-color: white; 
+	margin-right: 0px;
+	width:100%;
+	height:4.5%;
+	
+}
+
+#toClipboard{
+	background-color:none;
+	color:#3498db;
+	border:none;
+	visibility: hidden;
+}
+
+
+#btnSendMessage{
+	margin-top:2%;
+	border:none;
+	background-image:url(img/send.png);
+	width:5%;
+	height:10%;
+	opacity:1;
+	cursor:pointer;
+	margin-left:10%;
+}
+
+
+#btnSendMessage:hover{
+	margin-top:2%;
+	border:none;
+	opacity:0.8;
+}
+
+#btnSendMessage:focus{
+	margin-top:2%;
+	border:none;
+	opacity:0.8;
+	outline:none;
+}
+
+#number{
+
+	width:100%;
+	height:100%;
+	margin:5%;
+	color:#3498db;
+	border:transparent;
+	font-family:Comic Sans MS;
+	font-size:200%;
+	background:transparent;vertical-align: middle;}
+
+#name{
+	color:#3498db;
+	border:transparent;
+	font-family:Comic Sans MS;
+	font-size:200%;
+	background:transparent;
+	vertical-align: middle;
+	width:5%;
+	height:10%;
+	
+}
+
+#btnControl{
+	width:5%;
+	height:auto;
+	color:#3498db;
+	border:transparent;
+	font-family:Comic Sans MS;
+	font-size:50px;
+	background:transparent;
+}
+
+#btnControl:hover {
+	width:5%;
+	height:auto;
+	color:#2980b9;
+	border:transparent;
+	font-family:Comic Sans MS;
+	font-size:50px;
+	background:transparent;
+	cursor:pointer;
+}
+
+#btnControl:focus{	
+	width:5%;
+	height:auto;
+	outline:none;
+	font-family:Comic Sans MS;
+	font-size:50px;
+	background:transparent;
+	cursor:pointer;
+}
+
+h1{
+	font-size: 25px;
+	font-family:verdana;
+	text-align:left;
+	color:#c0392b;
+	margin-left:3%;
+}
+
+h2{
+	font-size: 15px;
+	font-family:verdana;
+	text-align:left;
+	color:#e74c3c;
+	margin:2px;
+	margin-left:3%;
+}

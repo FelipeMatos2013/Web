@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title> Agilizador de Envios PORCHAT!</title>
+		<script type="text/javascript" src="controller.js"></script>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<script>
+		
+	    window.onload = function carregar(){
+            pegarUltimo();
+        };
+
+   		</script>
+	</head>
+<body>
+
+
+<div id="container">
+        <div id="box-1" class="box">
+            
+        AGILIZADOR DE ENVIOS PORCHAT!
+
+        </div>
+
+        <div id="box-2" class="box">
+        <img src="img/porchat.png"/>
+
+        <h1> INSTRUÇÕES: </h1>
+        <h2> 1. Escolha entre as setas para qual pessoa quer enviar a mensagem. </h2>
+        <h2> 2. Clique no ícone de enviar mensagem.
+        <h2> 3. Execute o comando CTRL+V no chat e envie a mensagem!</h3><br><br>
+
+            <form>
+           
+                <input type="button"  value="<" id="btnControl" onclick='previousPerson()'>
+
+                <textBox id="number"></textBox>   
+
+                <input type="button"  value=">" id="btnControl" onclick='nextPerson()'><br/><br>
+
+                <textBox id="name"></textBox><br>
+
+                <a onclick='sendMessage()' > <img src="img/send.png" id="btnSendMessage"> </a>
+            
+                <textarea  id="toClipboard"> </textarea>     
+
+            </form>
+
+        </div>
+
+        <div id="box-3" class="box">
+
+            Desenvolvido por: Felipe Matos.<br>
+            -Projeto piloto para TCC Universitário - 11/08/2016
+        
+        </div>
+   </div>
+
+</div>
+</body>
+</html>
